@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    scroll-behavior: smooth;
+    /* justify-content: space-around; */
+    /* gap: 60px; */
+}
+.navbar{
+    width: 80%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(248, 244, 238);
+}
+
+.nav {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.link>a {
+    color: #454242;
+    font-weight: 550;
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.link>a:hover {
+    color: #ff651c;
+    font-style: bold;
+}
+
+.cbutton {
+    letter-spacing: 2px;
+    border: none;
+    box-shadow: 4px 4px 3px black;
+    background-color: #ff651c;
+    color: #ffffff;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.hero-1 {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+
+    gap: 15px;
+}
+
+.hName {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.h1-desc {
+    color: grey;
+}
+
+.hheading {
+    font-size: 53px;
+}
+
+.hbtn {
+    width: 120px;
+    letter-spacing: 1px;
+    border: none;
+    box-shadow: 4px 4px 3px black;
+    background-color: #ff651c;
+    color: #ffffff;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.hImg {
+    /* padding: 20px; */
+    height: 490px;
+}
+
+/* CLink-section */
+.cLink-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 20px 10%;
+}
+
+.cLink-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.eLearn {
+    font-size: large;
+    background-color: rgb(36, 36, 191);
+    padding: 1px 5px;
+    border-radius: 4px;
+    transform: rotate(-30deg);
+}
+
+.freelancer-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 50px 0px;
+}
+
+.fsec-1Img {
+    height: 500px;
+}
+
+.fsec-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.fsec-head {
+    font-size: 40px;
+
+}
+
+.fsec-2>p {
+    font-size: 22px;
+}
+
+.fp1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.project-completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project-completed>h1 {
+    color: #ff651c;
+}
+
+.project-completed>h3 {
+    font-size: 16px;
+}
+
+.fp2 {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.rcbutton {
+    width: 100px;
+    letter-spacing: 3px;
+    border: none;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    box-shadow: 4px 4px 3px #ff651c;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+/* My Services */
+.Myservices {
+    width: 100%;
+ 
+    padding: 50px ;
+    background-image: url(./assests/bg-effect-1.png);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Myservices>h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile {
+    padding: 40px;
+    border: 2px solid black;
+    width: 530px;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.profile>img {
+    height: 55px;
+    width: 50px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.desgin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p1,
+.c1 {
+    background-color: skyblue;
+}
+
+.profile>img {
+    background-color: white;
+}
+
+.p2,
+.c2 {
+    background-color: rgb(255, 166, 0);
+}
+
+.p3,
+.c3 {
+    background-color: rgb(242, 209, 215);
+}
+
+.p5,
+.c5 {
+    background-color: rgb(159, 239, 159);
+}
+
+.p6,
+.c6 {
+    background-color: rgb(165, 148, 165);
+}
+
+/*MY skills */
+.mySkills {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 90px;
+    padding-top: 50px;
+}
+
+.skill-cards {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 15px;
+
+}
+
+.card>img {
+    height: 35px;
+    width: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+
+/* Intersted */
+.intersted {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 30px 10%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+
+}
+
+.ibtn {
+    background-color: rgb(255, 166, 0);
+    width: 120px;
+    padding: 10px 10px;
+    color: black;
+
+}
+
+/* Latest Project */
+.latest-project {
+    /* width: 80%; */
+    padding: 30px 10%;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+
+
+}
+
+.latest-project>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(74, 72, 72);
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.project-card>img {
+    height: 300px;
+    /* width: 500px; */
+}
+
+.wdesign {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wdesign>button {
+    width: 130px;
+    padding: 10px 5px;
+}
+
+.wdesign>p {
+    color: grey;
+}
+
+.highlight {
+    width: 110px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.wdesign>h2 {
+    font-weight: 900;
+}
+
+/* testimonial */
+.testimonial {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px;
+    gap: 50px;
+}
+
+.tcards {
+    display: flex;
+    justify-content: center;
+
+    gap: 50px;
+
+}
+
+.tcard {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tcard>img {
+    height: 80px;
+    border: 2px solid black;
+    /* padding: 5px; */
+}
+
+.tcCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tcCard>p {
+    color: grey;
+}
+
+.designation {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.designation>.comment {
+    font-size: 45px;
+    color: gray;
+}
+
+.des>p {
+    color: gray;
+}
+
+.testimonial>h1 {
+    text-align: center;
+    color: rgb(74, 72, 72);
+}
+
+/* contact section */
+.contact-section {
+    padding: 80px 10%;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    background-image: url(./assests/bg-effect-3.png);
+    background-color: rgb(23, 23, 23);
+    color: white;
+    position: relative;
+}
+
+
+.mail {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+.mail>i {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: skyblue;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact>img {
+    height: 250px;
+}
+
+.contact-form {
+    color: black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.contactForm {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    
+}
+
+.cbtn {
+    width: 130px;
+    padding: 9px 5px;
+}
+
+.fhead {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.fhead>p {
+    color: gray;
+}
+
+.fname {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email>input {
+    padding: 8px;
+}
+
+.fname>input {
+    padding: 8px;
+}
+
+.sbjt {
+    padding: 8px;
+}
+
+#cmt {
+    padding: 8px;
+}
+
+.topUp{
+    position: fixed;
+    bottom: 12%;
+    right: 5%;
+    background-color: #ff651c;
+    align-self: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
